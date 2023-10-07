@@ -1,0 +1,23 @@
+.input-field {
+  padding-bottom: 1rem;
+
+  input {
+    width: 100%;
+    border: none;
+    border-radius: 0.2385rem;
+    background: var(--gray-400);
+    padding: 0.8rem 1.25rem;
+    color: var(--light);
+    font-size: var(--fs-400);
+  }
+  input::placeholder {
+    color: var(--gray-200);
+  }
+
+  .error-text {
+    color: var(--red);
+    padding-top: 0.5rem;
+    font-size: var(--fs-200)
+  }
+
+}

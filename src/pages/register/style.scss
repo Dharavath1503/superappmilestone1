@@ -1,0 +1,100 @@
+.registration-container {
+  
+
+  .bg-section {
+    background: url('../../assets/images/login-bg.png');
+    background-size: contain;
+    background-repeat: round;
+    width: 48.90%;
+    height: 100vh;
+    padding-left: 2.87rem;
+    padding-bottom: 5.62rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    h1 {
+      color: var(--light);
+      font-size: var(--fs-1100);
+      font-weight: 900;
+      line-height: 131%;
+      letter-spacing: 0.06875rem;
+      
+    }
+  }
+
+  .register {
+    background: var(--dark);
+    width: 51.10%;
+    text-align: center;
+    padding-top: 2.75rem;
+    
+    .super-app-logo {
+      color: var(--green-light);
+      font-size: var(--fs-1200);  
+      line-height: 139%;
+    }
+    .title-text {
+      color: var(--light);
+      font-size: var(--fs-400);
+      line-height: 139%;
+    }
+
+    .register-form {
+      text-align: left;
+      width: 65%;
+      margin: 0 auto;
+      margin-top: 2rem;
+
+      .checkbox {
+        line-height: 139%;
+        letter-spacing: 0.02506rem;
+
+        .checkbox-field {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+
+          input {
+            background: #D9D9D9;
+          }
+          label {
+            color: var(--gray-200);
+            font-size: var(--fs-300);
+            
+          }
+        }
+
+        p {
+          color: var(--red);
+          font-size: var(--fs-200);
+        }
+      }
+
+      .signup-btn {
+        width: 100%;
+        border-radius: 1.75rem;
+        padding-block: 0.8rem;
+        background: var(--green-light);
+        color: var(--light);
+        font-weight: 600;
+        font-size: var(--fs-400);
+        letter-spacing: 0.03625rem;
+        margin-block: 1rem;
+        text-transform: uppercase;
+      }
+
+      .form-footer {
+        color: var(--gray-200);
+        padding-bottom: 1rem;
+        font-size: var(--fs-100);
+        font-weight: 500;
+        line-height: 141%;
+        letter-spacing: 0.0225rem;
+
+        .light-green {
+          color: var(--green-light);
+        }
+      }
+    }
+  }
+}
